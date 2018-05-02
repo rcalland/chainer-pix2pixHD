@@ -1,0 +1,17 @@
+{
+    "class_name": "CityscapesDataset",
+    "train": {
+	"args": ["/datasets/cityscapes/leftImg8bit/train",
+		 "/datasets/cityscapes/gtFine/train"],
+	"kwargs": {
+	    "size": [256, 512]
+	}
+    },
+    "test": {
+	"args": ["/datasets/cityscapes/leftImg8bit/val",
+		 "/datasets/cityscapes/gtFine/val"],
+	"kwargs": {
+	    "size": [256, 512]
+	}
+    }
+}
